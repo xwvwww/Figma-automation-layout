@@ -1,0 +1,43 @@
+@import vars
+@import mixins
+
+*
+    margin: 0
+    padding: 0
+    text-decoration: none
+    box-sizing: border-box
+    font-family: 'Roboto', sans-serif
+    outline: none
+
+.container
+    max-width: 1140px
+    margin: 0 auto
+
+.section__first
+    width: 1140px
+    margin: 0px auto
+    margin-top: 64px
+
+.section__second
+    max-width: 1440px
+    margin: 0 auto
+    margin-top: 64px
+
+.main__contacts
+    display: flex
+    justify-content: center
+
+// Main
+@import header
+@import section_first
+@import section__info
+@import section__image
+@import footer
+
+// Contacts
+@import contacts
+@import label
+
+// Contacts
+@import media768px
+@import media376px
